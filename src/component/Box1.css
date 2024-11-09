@@ -1,0 +1,20 @@
+.box1-container {
+    display: flex;
+    gap: 20px;  /* 이미지 사이 간격 */
+    flex-wrap: wrap;  /* 화면 크기에 따라 줄바꿈 */
+    padding: 20px;
+  }
+  
+  .box1-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;  /* 이미지 비율 유지 */
+    border-radius: 10px;  /* 모서리 둥글게 */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* 그림자 효과 */
+  }
+  
+  /* 호버 효과 */
+  .box1-image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
